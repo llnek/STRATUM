@@ -1,0 +1,23 @@
+<project name="stratum" basedir="." default="release" xmlns:ivy="antlib:org.apache.ivy.ant">
+
+    <property name="PID"     value="${ant.project.name}"/>
+    <property name="PID-DISTRO"     value="${PID}-distro"/>
+
+    <property name="DEBUG"     value="true"/>
+	<property name="revision" value="1.0.0" />
+
+	<include file="${basedir}/../common.xml"/>
+
+    <target name="pack-source" depends="">
+		<copy todir="${pack.dir}/src/main/java">
+			<fileset dir="${src.dir}">
+			</fileset>
+		</copy>
+    </target>
+
+    <target name="pack-samples" depends=""></target>
+
+	<target name="jar" depends="common.pub-jar"/>
+	<target name="release" depends="common.pub-distro"/>
+
+</project>

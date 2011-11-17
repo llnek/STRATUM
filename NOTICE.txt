@@ -1,0 +1,17 @@
+------------------------------------------------------------------------------
+Stratum - Simple Java ORM.
+Copyright 2008-2011 Cherimoia,LLC. All Rights Reserved.
+------------------------------------------------------------------------------
+The following set of software modules/components are included
+( bundled as binaries/source code):
+
+- H2 database engine - java database,
+  which is open source (Mozilla or EPL) software.
+  @see http://h2database.com
+  @see-license http://h2database.com/html/license.html
+
+- Zotoh's General Purpose Java Library,
+  which is open source (Apache-license) software.
+  @see http://zotoh.com
+  @see-license http://www.apache.org/licenses/LICENSE-2.0
+

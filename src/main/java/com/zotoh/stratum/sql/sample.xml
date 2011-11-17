@@ -1,0 +1,10 @@
+<simdb>
+    <classes>
+        <class id="com.cherimoia.simdb.samples.Person"/>
+        <class id="com.cherimoia.simdb.samples.Employee"/>
+        <class id="com.cherimoia.simdb.samples.Department"/>
+        <class id="com.cherimoia.simdb.samples.Company"/>
+        <class id="com.cherimoia.simdb.samples.Address"/>
+        <class id="com.cherimoia.simdb.samples.MMDeptEmp"/>
+    </classes>
+</simdb>
